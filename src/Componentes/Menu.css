@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+nav a {
+
+text-decoration: none;
+color: black;
+padding: 5px 10px;
+
+}
+
+
+nav a:hover {
+    background-color: #eee;
+}
