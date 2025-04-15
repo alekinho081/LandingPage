@@ -9,15 +9,15 @@ import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 export const Menu = () => {
     return (
-        <nav>
+        <nav >
 
         <BottomNavigation
         showLabels={true}
         >
 
-            <Link to='/'><BottomNavigationAction label="Recents" icon={<InfoIcon />} /></Link>
-            <Link to='/projeto'><BottomNavigationAction label="Favorites" icon={<AssignmentIcon />} /></Link>
-            <Link to='/contato'><BottomNavigationAction label="Nearby" icon={<ContactPageIcon />} /></Link>
+            <Link to='/'><BottomNavigationAction label="Recents" icon={<InfoIcon sx={{color: 'white', fontSize:'30px'}}/>} /></Link>
+            <Link to='/projeto'><BottomNavigationAction label="Favorites" icon={<AssignmentIcon sx={{color: 'white', fontSize:'30px'}} />} /></Link>
+            <Link to='/contato'><BottomNavigationAction label="Nearby" icon={<ContactPageIcon sx={{color: 'white', fontSize:'30px'}} />} /></Link>
             
             
             
