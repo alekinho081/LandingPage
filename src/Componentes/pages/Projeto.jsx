@@ -3,10 +3,10 @@ import React from "react";
 
 export const Projeto = () => {
     return (
-        <div>
+        <section>
+                <h1>Projeto</h1>
 
-        
-        </div>
+        </section>
     )
 
 }

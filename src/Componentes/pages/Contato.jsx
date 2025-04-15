@@ -2,10 +2,10 @@ import React from "react"
 
 export const Contato = () => {
     return (
-        <div>
+        <section>
+                <h1>Contato</h1>
 
-        
-        </div>
+        </section>
     )
 
 }

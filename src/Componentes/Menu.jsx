@@ -2,23 +2,25 @@ import { Link } from "react-router-dom"
 import './Menu.css';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import InfoIcon from '@mui/icons-material/Info';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
+
 
 export const Menu = () => {
     return (
         <nav>
-                <Link to='/'>Sobre</Link>
-                <Link to='/projeto'>Projeto</Link>
-                <Link to='/contato'>Contato</Link>
 
         <BottomNavigation
-        showLabels
+        showLabels={true}
         >
-            <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-            <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-            <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+
+            <Link to='/'><BottomNavigationAction label="Recents" icon={<InfoIcon />} /></Link>
+            <Link to='/projeto'><BottomNavigationAction label="Favorites" icon={<AssignmentIcon />} /></Link>
+            <Link to='/contato'><BottomNavigationAction label="Nearby" icon={<ContactPageIcon />} /></Link>
+            
+            
+            
         </BottomNavigation>
 
         </nav>

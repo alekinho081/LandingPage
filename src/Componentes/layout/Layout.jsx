@@ -15,7 +15,7 @@ export const Layout = () => {
 
               <footer>
 
-                    <p>2025 My App</p>
+                    <p>© 2025 My App</p>
 
               </footer>
 
