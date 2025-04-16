@@ -12,14 +12,14 @@ export const Contato = () => {
                 sx={{maxWidth:350, display:"flex", flexDirection:'column', alignItems:'flex-start', margin:1, paddingLeft:1}}
 
                 >
-                    <h4>Alex Sandro</h4> <a href="https://www.instagram.com/alekinho081"><InstagramIcon sx={{position:"absolute", top:150, right:600}} /></a>
+                    <h4>Alex Sandro</h4> <a href="https://www.instagram.com/alekinho081"><InstagramIcon sx={{position:"absolute", top:150, right:'54vw'}} /></a>
                     alex_borba-junior@estudante.sesisenai.org.br
                     </Card>
                 
                 <Card variant="outlined"
                 sx={{maxWidth:350, display:"flex", flexDirection:'column', alignItems:'flex-start', paddingLeft:1}}
                 >
-                    <h4>Gabriel Lino</h4><a href="https://www.instagram.com/lino.s7/"><InstagramIcon sx={{position:"absolute", top:245, right:600}}/></a>
+                    <h4>Gabriel Lino</h4><a href="https://www.instagram.com/lino.s7/"><InstagramIcon sx={{position:"absolute", top:245, right:'54vw'}}/></a>
                     
                     gabriel_lv_santos@estudante.sesisenai.org.br
                     </Card>
