@@ -18,12 +18,20 @@ export const Contato = () => {
                 >
                     <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                         <h4>Alex Sandro</h4>
-                        <a href="https://www.instagram.com/alekinho081">
+                        <a href="https://www.instagram.com/alekinho081" 
+                            target="blank"
+                            style={{color: "black"}}
+                        >
                             <InstagramIcon />
                         </a>
                     </div>
 
-                    alex_borba-junior@estudante.sesisenai.org.br
+                    <a style={{color:"black", textDecoration:'none'}} 
+                    target="blank"
+                     href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkFSvVDlZKvsGkwmMlFLgNjqGJzHZdgvMvSgNrqQbXLcMcPDHCFBHDxwbBTGzcQBtPPsr"
+                    >
+                        alex_borba-junior@estudante.sesisenai.org.br
+                    </a>
                 </Card>
                 
                 <Card variant="outlined"
@@ -37,11 +45,20 @@ export const Contato = () => {
                 >
                     <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                         <h4>Gabriel Lino</h4>
-                        <a href="https://www.instagram.com/lino.s7/">
+                        <a href="https://www.instagram.com/lino.s7/"
+                        target="blank"
+                            style={{color: "black"}}
+                        >
                             <InstagramIcon />
                         </a>
                     </div>
-                    gabriel_lv_santos@estudante.sesisenai.org.br
+                    <a style={{color:"black", textDecoration:'none'}} 
+                    target="blank"
+                     href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkFSvVDlZKvsGkwmMlFLgNjqGJzHZdgvMvSgNrqQbXLcMcPDHCFBHDxwbBTGzcQBtPPsr"
+                    >
+                        gabriel_lv_santos@estudante.sesisenai.org.br
+                    </a>
+                    
                 </Card>
             </center>
         </section>
