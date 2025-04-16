@@ -17,12 +17,10 @@ export const Menu = () => {
     return (
         <nav style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
 
-        <BottomNavigation
-        >
+        <BottomNavigation>
             <Link to='/'><BottomNavigationAction  icon={<HomeIcon sx={{color: 'white', fontSize:'30px'}}/>} /></Link>
             <Link to='/sobre'><BottomNavigationAction  icon={<InfoIcon sx={{color: 'white', fontSize:'30px'}}/>} /></Link>
             <Link to='/contato'><BottomNavigationAction  icon={<ContactPageIcon sx={{color: 'white', fontSize:'30px'}} />} /></Link>
-        
         </BottomNavigation>
 
         <div style={{paddingRight:1}}>        

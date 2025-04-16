@@ -22,6 +22,7 @@ export const Contato = () => {
                             <InstagramIcon />
                         </a>
                     </div>
+
                     alex_borba-junior@estudante.sesisenai.org.br
                 </Card>
                 
