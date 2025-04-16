@@ -4,6 +4,7 @@ import { Layout } from './Componentes/layout/Layout';
 import { Sobre } from './Componentes/pages/Sobre';
 import { Projeto } from './Componentes/pages/Projeto';
 import { Contato } from './Componentes/pages/Contato';
+import { Home } from './Componentes/pages/Home';
 
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout />} >
-          
-            <Route index element={< Sobre />} />
+
+            <Route index element={< Home />} />
+
+            <Route path='/sobre' element={< Sobre />} />
             <Route path='/projeto' element={< Projeto />} />
             <Route path='/contato' element={< Contato />} />
             <Route path='*' element={<h1> 404 Not Found</h1>} />

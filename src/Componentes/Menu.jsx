@@ -5,6 +5,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import InfoIcon from '@mui/icons-material/Info';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 export const Menu = () => {
@@ -12,12 +13,11 @@ export const Menu = () => {
         <nav >
 
         <BottomNavigation
-        showLabels={true}
         >
-
-            <Link to='/'><BottomNavigationAction label="Recents" icon={<InfoIcon sx={{color: 'white', fontSize:'30px'}}/>} /></Link>
-            <Link to='/projeto'><BottomNavigationAction label="Favorites" icon={<AssignmentIcon sx={{color: 'white', fontSize:'30px'}} />} /></Link>
-            <Link to='/contato'><BottomNavigationAction label="Nearby" icon={<ContactPageIcon sx={{color: 'white', fontSize:'30px'}} />} /></Link>
+            <Link to='/'><BottomNavigationAction  icon={<HomeIcon sx={{color: 'white', fontSize:'30px'}}/>} /></Link>
+            <Link to='/sobre'><BottomNavigationAction  icon={<InfoIcon sx={{color: 'white', fontSize:'30px'}}/>} /></Link>
+            <Link to='/projeto'><BottomNavigationAction  icon={<AssignmentIcon sx={{color: 'white', fontSize:'30px'}} />} /></Link>
+            <Link to='/contato'><BottomNavigationAction  icon={<ContactPageIcon sx={{color: 'white', fontSize:'30px'}} />} /></Link>
             
             
             
