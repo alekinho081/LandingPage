@@ -7,7 +7,9 @@ import { Contato } from './Componentes/pages/Contato';
 import { Home } from './Componentes/pages/Home';
 
 
+
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
