@@ -37,7 +37,7 @@ export const Projeto = () => {
     return (
         <section >
             <h1>Projeto</h1>
-            <div style={{ display: "flex", flexDirection:"row", justifyContent:"space-between" }}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: '40px' }}>
                     <Card
                         variant="outlined"
@@ -51,15 +51,15 @@ export const Projeto = () => {
                         }}
                     >
                         <Typography variant="h6">Pitch</Typography>
-                        <Typography variant="body6" sx={{textAlign:'left'}}>Uma empresa com um estoque desorganizado enfrentava atrasos, perdas e retrabalho diário. Foi aí que nasceu o Tech Solutions Dashboard, um aplicativo desenvolvido especialmente para transformar a forma como os funcionários da área de estoque gerenciam os produtos.
-                        Com o Tech Solutions Dashboard, os colaboradores têm acesso rápido e intuitivo ao controle de entradas e saídas, alertas automáticos de reposição, inventário atualizado em tempo real e relatórios claros para tomadas de decisão rápidas e seguras.
-                        <br/>Tudo isso com uma interface simples, desenvolvida para o uso direto no dia a dia do estoque.
+                        <Typography variant="body6" sx={{ textAlign: 'left' }}>Uma empresa com um estoque desorganizado enfrentava atrasos, perdas e retrabalho diário. Foi aí que nasceu o Tech Solutions Dashboard, um aplicativo desenvolvido especialmente para transformar a forma como os funcionários da área de estoque gerenciam os produtos.
+                            Com o Tech Solutions Dashboard, os colaboradores têm acesso rápido e intuitivo ao controle de entradas e saídas, alertas automáticos de reposição, inventário atualizado em tempo real e relatórios claros para tomadas de decisão rápidas e seguras.
+                            <br />Tudo isso com uma interface simples, desenvolvida para o uso direto no dia a dia do estoque.
                         </Typography>
                     </Card>
                 </div>
-                <div>
+                <div style={{paddingRight:20, paddingBottom:30}}>
 
-                    <ImageList sx={{ width: 600, height: 550 }} variant="woven" cols={3} gap={8}>
+                    <ImageList sx={{ width: 600, height: 550, border:'solid 1px', paddingRight:2 }} variant="woven" cols={3} gap={8}>
                         {itemData.map((item) => (
                             <ImageListItem key={item.img}>
                                 <img
