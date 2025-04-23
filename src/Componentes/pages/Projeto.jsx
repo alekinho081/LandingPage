@@ -50,9 +50,11 @@ export const Projeto = () => {
                             padding: 2,
                         }}
                     >
-                        <Typography variant="h6">Lorem Ipsum</Typography>
-                        <Typography variant="body6">Aplicativo foi feito para resolver o problema de uma empresa que não estava
-                            conseguindo gerenciar o estoque, o aplicativo é usado pelos funcionários da parte de estoque.</Typography>
+                        <Typography variant="h6">Pitch</Typography>
+                        <Typography variant="body6" sx={{textAlign:'left'}}>Uma empresa com um estoque desorganizado enfrentava atrasos, perdas e retrabalho diário. Foi aí que nasceu o Tech Solutions Dashboard, um aplicativo desenvolvido especialmente para transformar a forma como os funcionários da área de estoque gerenciam os produtos.
+                        Com o Tech Solutions Dashboard, os colaboradores têm acesso rápido e intuitivo ao controle de entradas e saídas, alertas automáticos de reposição, inventário atualizado em tempo real e relatórios claros para tomadas de decisão rápidas e seguras.
+                        <br/>Tudo isso com uma interface simples, desenvolvida para o uso direto no dia a dia do estoque.
+                        </Typography>
                     </Card>
                 </div>
                 <div>
