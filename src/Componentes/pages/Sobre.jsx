@@ -31,9 +31,9 @@ export const Sobre = () => {
         >
           <Typography variant="h6">Motivação</Typography>
           <Typography variant="body2" sx={{ textAlign: 'left' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            A realização deste projeto surgiu da necessidade de aplicar, na prática, os conhecimentos adquiridos ao longo do curso na área de desenvolvimento de sistemas, além de simular um cenário realista de mercado.
+            O objetivo foi criar uma solução que centralizasse as informações da empresa, facilitasse o acompanhamento do estoque em tempo real e proporcionasse uma visão clara e estratégica por meio de um dashboard.
+            Essa abordagem não só reforçou o aprendizado técnico — como a criação de interfaces, manipulação de dados e lógica de programação —, mas também promoveu o desenvolvimento de habilidades importantes como planejamento, organização de funcionalidades e foco na experiência do usuário.
           </Typography>
         </Card>
 
