@@ -29,6 +29,7 @@ export const Contato = () => {
                     <a style={{color:"black", textDecoration:'none'}} 
                     target="blank"
                      href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkFSvVDlZKvsGkwmMlFLgNjqGJzHZdgvMvSgNrqQbXLcMcPDHCFBHDxwbBTGzcQBtPPsr"
+                    
                     >
                         alex_borba-junior@estudante.sesisenai.org.br
                     </a>
